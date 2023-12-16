@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e35858;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+#player {
+    max-width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+
+}
+
+
+@media (max-width: 620px) {
+    #player {
+        width: 100%;
+        height: 300px;
+
+    }
+}
